@@ -1,0 +1,116 @@
+html,body{
+	height: 100%;
+	scroll-behavior: smooth;
+
+}
+.cover{
+	background: url('love3.jpg') center no-repeat;
+
+	background-size: cover;
+	height: 100%;
+	display: table;
+	width: 100%;
+	background-attachment: fixed;
+
+}
+.quote{
+	display: table-cell;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Century Gothic;
+}
+
+.quote h1{
+	font-size: 80px;
+	letter-spacing: -3px;
+}
+.quote h3{
+	font-size: 40px;
+}
+nav.bg-light{
+	background-color: rgba(0,0,0,0.5)!important;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link{
+	color: white;
+	//font-size: 18px;
+	font-family: Century Gothic;
+	
+}
+.navbar-light .navbar-brand:visited, .navbar-light .navbar-nav .nav-link:visited{
+	color: white;
+}
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-nav .nav-link:hover{
+	color: yellow;
+}
+.navbar-light .navbar-brand:active, .navbar-light .navbar-nav .nav-link:active{
+	color: white!;
+}
+.navbar-light .navbar-toggler-icon{
+	background: url(TOGGLE.png);
+}
+section{
+	padding: 80px;
+}
+#about{
+	background: url('about3.jpg') right no-repeat;
+	background-size: cover;
+
+}
+#about p{
+	text-align: left;
+	vertical-align: middle;
+	padding: 30px;
+	color: white;
+}
+#book{
+	background: url('happy.jpeg') center;
+	height: 1000px;
+	background-size: cover;
+	background-attachment: fixed;
+
+
+}
+
+#book p{
+	padding: 20px;
+	color: black;
+}
+#media{
+	//display: table;
+	//width: 100%;
+	background: url('what.jpeg') bottom no-repeat;
+	background-size: cover;
+
+}
+
+.media-media{
+	//display: table-cell;
+	text-align: center;
+	width: 75%;
+	margin:0 auto;
+}
+
+#contact{
+	background: url('img1.jpeg') center no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	background-attachment: fixed;
+}
+
+input,textarea,button{
+	margin: 10px;
+}
+footer{
+	text-align: center;
+	padding: 20px;
+	color: white;
+	background: #000;
+}
+footer span{
+	color: hotpink;
+}
+.col-md-6{
+	text-align: center;
+}
